@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Clima Pro</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Busca una ciudad...">
+            <button id="searchBtn">Buscar</button>
+        </div>
+
+        <div id="weather-container" class="weather-card hidden">
+            <h2 id="cityName">---</h2>
+            <img id="weatherIcon" src="" alt="Icono clima">
+            <p id="description">---</p>
+            <div class="temp-main">
+                <span id="temperature">0</span>°C
+            </div>
+            <div class="details">
+                <p>Humedad: <span id="humidity">0</span>%</p>
+                <p>Viento: <span id="wind">0</span> m/s</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
